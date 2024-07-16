@@ -1,8 +1,9 @@
-#Challenge Forum-Hub-API
+# Challenge Forum-Hub-API 📚
 
 É uma aplicação desenvolvida em Java utilizando o framework Spring Boot. Esta API foi projetada para fornecer serviços de autenticação e gerenciamento de usuários para um fórum.
 
-#Requisitos de Sistema
+# Requisitos de Sistema 💻
+
 Java: Versão 21 ou superior
 Maven: Para gerenciamento de dependências
 #Dependências Principais
@@ -21,7 +22,8 @@ Token JWT (JSON Web Token):
 Utilizado para autenticação de usuários.
 Os tokens são assinados usando o algoritmo HMAC256.
 Tokens possuem um tempo de expiração configurado para garantir a segurança.
-Configurações de Segurança do Spring:
+
+# Configurações de Segurança do Spring: 
 
 A aplicação utiliza as configurações de segurança do Spring para proteger os endpoints.
 O token JWT é validado para cada requisição, garantindo que apenas usuários autenticados possam acessar determinados recursos.
