@@ -1,15 +1,16 @@
 package com.forum.hub.repository;
 
-import com.forum.hub.domain.usuario.Usuario;
+import com.forum.hub.model.AuthUser;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.stereotype.Repository;
 
 import java.util.Optional;
 
-public interface AuthRepositoryextends extends JpaRepository<Usuario, Long> {
+@Repository
+public interface AuthRepository extends JpaRepository<AuthUser, Long> {
 
-    Optional<Usuario> findByUsernameAndPassword(String username, String password);
+    Optional<AuthUser> findByUsernameAndPassword(String username, String password);
 
     UserDetails findByUsername(String subject);
 }
-
