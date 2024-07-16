@@ -1,5 +1,6 @@
 #Challenge Forum-Hub-API
-Challenge Forum-Hub-API é uma aplicação desenvolvida em Java utilizando o framework Spring Boot. Esta API foi projetada para fornecer serviços de autenticação e gerenciamento de usuários para um fórum.
+
+É uma aplicação desenvolvida em Java utilizando o framework Spring Boot. Esta API foi projetada para fornecer serviços de autenticação e gerenciamento de usuários para um fórum.
 
 #Requisitos de Sistema
 Java: Versão 21 ou superior
