@@ -6,15 +6,21 @@
 
 Java: Versão 21 ou superior
 Maven: Para gerenciamento de dependências
-#Dependências Principais
+
+# Dependências Principais
+
 Spring Boot: 3.1.1
 Spring Boot Starter Web: 3.1.1
 Auth0 Java JWT: 4.2.1
-#Recursos Utilizados
+
+# Recursos Utilizados
+
 Spring Boot: Framework para criação de aplicações standalone e de produção em Spring.
 Spring Boot Starter Web: Starter para construir aplicações web, incluindo RESTful, utilizando Spring MVC.
 Auth0 Java JWT: Biblioteca para criação e verificação de tokens JWT.
-#Configurações de Segurança
+
+# Configurações de Segurança
+
 A segurança é um dos aspectos mais críticos desta API. Abaixo estão alguns dos principais recursos de segurança utilizados:
 
 Token JWT (JSON Web Token):
